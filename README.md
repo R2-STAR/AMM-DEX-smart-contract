@@ -8,11 +8,11 @@ Unlike order-book exchanges, this DEX uses mathematical pricing driven entirely 
 ## Core AMM 
 
 Constant Product Formula
-x * y = k
-x = reserve of Token A
-y = reserve of Token B
-k = constant liquidity invariant
-Swaps adjust reserves while keeping k approximately constant.
+ - x * y = k
+ - x = reserve of Token A
+ - y = reserve of Token B
+ - k = constant liquidity invariant
+ - Swaps adjust reserves while keeping k approximately constant.
 
 
 ## Price Impact
@@ -55,6 +55,7 @@ Large trades cause slippage, since prices move along the curve.
 ## Goal
 
 Build a strong foundation in DEX mechanics, AMM math, and backend architecture before moving to Solidity-based on-chain exchanges.
+
 
 
 
