@@ -1,6 +1,7 @@
 # Decentralised Exchange (AMM) – Node.js, Express & TypeScript
 
-This project is an off-chain simulation of an Automated Market Maker (AMM) inspired by Uniswap v2. It is built to deeply understand DEX internals, pricing mechanics, and liquidity behavior before implementing them on-chain in Solidity.
+This project is an off-chain simulation of an Automated Market Maker (AMM) inspired by Uniswap v2.
+It is built to deeply understand DEX internals, pricing mechanics, and liquidity behavior before implementing them on-chain in Solidity.
 Unlike order-book exchanges, this DEX uses mathematical pricing driven entirely by liquidity pools.
 
 
@@ -54,6 +55,7 @@ Large trades cause slippage, since prices move along the curve.
 ## Goal
 
 Build a strong foundation in DEX mechanics, AMM math, and backend architecture before moving to Solidity-based on-chain exchanges.
+
 
 
 
