@@ -7,9 +7,6 @@ app.use(express.json());
 let ETH_BALANCE = 200;     //Usually these assets are USDC and USDT to avoid impermanent loss
 let USDC_BALANCE = 700000;
 
-app.post("/add-liquidity", (req, res) => {
-
-})
 
 //When a user wants to buy an asset(ETH here) from the pool
 app.post("/buy-asset", (req, res) => {
@@ -40,6 +37,6 @@ app.post("/sell-asset", (req, res) => {
     })
 })
 
-app.post("/quote", (req, res) => {
-
-})
+app.listen(3000, () => {
+    console.log("DEX simulator running on port 3000");
+});
